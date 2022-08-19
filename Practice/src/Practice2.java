@@ -18,7 +18,6 @@ public class Practice2 {
 		for(Integer array : arrayList) {
 			age = age.add(BigDecimal.ONE);
 			System.out.println("value --->" + new BigDecimal(12.678).setScale(1,RoundingMode.HALF_UP));
-			System.out.println(Math.round(12.38));
 		}
 	}
 }
